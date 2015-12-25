@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>spider and guitar</title>
+		<script type='text/javascript' src='../vendor/jquery.js'> </script>
+		<script type='text/javascript' src='./js/spider.js'> </script>
+	</head>
+
+	<body>
+		<style type="text/css">
+			body{
+				background:#000;
+				width: 1345px;
+				background:url(../assets/img/bg.png);
+				overflow:hidden;
+			}
+			#fps,#tag,#id{
+				color: #ffffff;
+			}
+			#id{
+				margin-left:100px;
+			}
+			#tag{ margin-left:200px;}
+			#wrapper{
+				top:20px;
+				/*border: #0F0 0.2em solid;*/
+
+				width:1300px;
+				height:670px;
+				margin:auto;
+			}
+			#canvas{
+
+				width:1300px;
+				height:670px;
+			}
+			#canvas:hover{
+				cursor:pointer;
+			}
+
+	  
+</style>
+
+<div id="audios">
+	<audio id="1" src="../assets/mp3/灌水声.mp3" ></audio>
+	<audio id="2" src="../assets/mp3/从山上流水声.mp3" ></audio>
+	<audio id="3"  src="../assets/mp3/哗哗的流水声.mp3" ></audio>
+</div>
+
+<button id="btn_pause"> Pause/Start </button>
+<span id="fps"> </span> <span id="tag"></span> <span id="id"></span>
+<div id="wrapper">
+	<canvas id="canvas">
+	your browser doesn't support canvas!  please use chrome!
+	</canvas>
+</div>
+</body>
+</html>
